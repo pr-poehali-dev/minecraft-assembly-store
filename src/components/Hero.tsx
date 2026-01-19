@@ -14,23 +14,27 @@ const Hero = () => {
               Профессионально собранные модпаки с проработанным балансом. Готовы к игре сразу после установки.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="gap-2">
-                <Icon name="ShoppingCart" size={20} />
-                Смотреть каталог
+              <Button size="lg" className="gap-2" asChild>
+                <a href="#catalog">
+                  <Icon name="ShoppingCart" size={20} />
+                  Смотреть каталог
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                <Icon name="Play" size={20} />
-                Как это работает
+              <Button size="lg" variant="outline" className="gap-2" asChild>
+                <a href="#about">
+                  <Icon name="Info" size={20} />
+                  О нас
+                </a>
               </Button>
             </div>
             <div className="flex items-center gap-8 pt-4">
               <div>
-                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-3xl font-bold text-primary">300+</div>
                 <div className="text-sm text-muted-foreground">Довольных игроков</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Готовых сборок</div>
+                <div className="text-3xl font-bold text-primary">4</div>
+                <div className="text-sm text-muted-foreground">Готовых сборки</div>
               </div>
             </div>
           </div>

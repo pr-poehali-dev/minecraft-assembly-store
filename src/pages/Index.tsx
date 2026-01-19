@@ -1,8 +1,9 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Catalog from '@/components/Catalog';
+import Reviews from '@/components/Reviews';
+import Sponsors from '@/components/Sponsors';
 import About from '@/components/About';
-import UserProfile from '@/components/UserProfile';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -12,8 +13,9 @@ const Index = () => {
       <main className="flex-1">
         <Hero />
         <Catalog />
+        <Reviews />
+        <Sponsors />
         <About />
-        <UserProfile />
       </main>
       <Footer />
     </div>

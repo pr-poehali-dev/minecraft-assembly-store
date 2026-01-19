@@ -31,7 +31,7 @@ const About = () => {
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">О нас</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            CloudMeGrup — это команда энтузиастов Minecraft, создающих качественные модпаки с 2020 года
+            CloudMeGrup — это команда энтузиастов Minecraft, создающих качественные модпаки
           </p>
         </div>
 
@@ -59,16 +59,16 @@ const About = () => {
           <h3 className="text-2xl md:text-3xl font-bold mb-4">Наши достижения</h3>
           <div className="grid md:grid-cols-3 gap-8 mt-8">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">4+ года</div>
+              <div className="text-4xl font-bold text-primary mb-2">2+ года</div>
               <div className="text-muted-foreground">На рынке</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-4xl font-bold text-primary mb-2">300+</div>
               <div className="text-muted-foreground">Довольных клиентов</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">50+</div>
-              <div className="text-muted-foreground">Уникальных сборок</div>
+              <div className="text-4xl font-bold text-primary mb-2">4</div>
+              <div className="text-muted-foreground">Уникальных сборки</div>
             </div>
           </div>
         </div>

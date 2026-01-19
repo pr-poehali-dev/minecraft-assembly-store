@@ -2,7 +2,7 @@ import Icon from '@/components/ui/icon';
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background py-12">
+    <footer className="bg-card border-t border-border py-12">
       <div className="container">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
@@ -12,26 +12,26 @@ const Footer = () => {
               </div>
               <span className="text-lg font-bold">CloudMeGrup</span>
             </div>
-            <p className="text-sm opacity-80">
-              Профессиональные сборки модов для Minecraft с 2020 года
+            <p className="text-sm text-muted-foreground">
+              Профессиональные сборки модов для Minecraft
             </p>
           </div>
 
           <div>
             <h3 className="font-bold mb-4">Навигация</h3>
-            <ul className="space-y-2 text-sm opacity-80">
+            <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#home" className="hover:opacity-100 transition-opacity">
+                <a href="#home" className="hover:text-foreground transition-colors">
                   Главная
                 </a>
               </li>
               <li>
-                <a href="#catalog" className="hover:opacity-100 transition-opacity">
+                <a href="#catalog" className="hover:text-foreground transition-colors">
                   Каталог
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:opacity-100 transition-opacity">
+                <a href="#about" className="hover:text-foreground transition-colors">
                   О нас
                 </a>
               </li>
@@ -39,21 +39,11 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Поддержка</h3>
-            <ul className="space-y-2 text-sm opacity-80">
+            <h3 className="font-bold mb-4">Связь</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
-                  Инструкции
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:opacity-100 transition-opacity">
-                  Контакты
+                <a href="https://t.me/bluerisepod" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  Telegram
                 </a>
               </li>
             </ul>
@@ -63,28 +53,18 @@ const Footer = () => {
             <h3 className="font-bold mb-4">Мы в соцсетях</h3>
             <div className="flex gap-3">
               <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors"
+                href="https://t.me/bluerisepod"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary/20 flex items-center justify-center transition-colors"
               >
-                <Icon name="MessageCircle" size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors"
-              >
-                <Icon name="Mail" size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background/10 hover:bg-background/20 flex items-center justify-center transition-colors"
-              >
-                <Icon name="Youtube" size={20} />
+                <Icon name="MessageCircle" size={20} className="text-primary" />
               </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-background/10 pt-8 text-center text-sm opacity-80">
+        <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
           © 2026 CloudMeGrup. Все права защищены.
         </div>
       </div>
